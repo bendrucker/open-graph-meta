@@ -27,12 +27,15 @@
     "standard": "^5.0.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "tags.js"
   ],
   "dependencies": {
     "ap": "~0.2.0",
     "flat": "~1.6.0",
+    "meta-tag-data": "~1.0.0",
     "object-pair": "~1.0.0",
+    "reduce-object": "~0.1.3",
     "value-pipe": "~1.0.0"
   }
 }

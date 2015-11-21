@@ -1,0 +1,38 @@
+{
+  "name": "open-graph-meta",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Generate Open Graph meta tags",
+  "license": "MIT",
+  "repository": "bendrucker/open-graph-meta",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "og",
+    "open graph",
+    "tag",
+    "meta",
+    "html",
+    "facebook",
+    "twitter"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^5.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "ap": "~0.2.0",
+    "flat": "~1.6.0",
+    "object-pair": "~1.0.0",
+    "value-pipe": "~1.0.0"
+  }
+}

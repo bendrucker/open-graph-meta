@@ -1,4 +1,4 @@
-# open-graph-meta [![Build Status](https://travis-ci.org/bendrucker/open-graph-meta.svg?branch=master)](https://travis-ci.org/bendrucker/open-graph-meta)
+# open-graph-meta [![Build Status](https://travis-ci.org/bendrucker/open-graph-meta.svg?branch=master)](https://travis-ci.org/bendrucker/open-graph-meta) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/open-graph-meta.svg)](https://greenkeeper.io/)
 
 > Generate Open Graph meta tags
 

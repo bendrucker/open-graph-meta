@@ -8,5 +8,5 @@ var pair = require('object-pair')
 
 module.exports = pipe(
   partial(pair, 'og'), // {og: obj}
-  ap.partialRight(flatten, {delimiter: ':'}) // {og:title, ...}
+  ap.partialRight(flatten, { delimiter: ':' }) // {og:title, ...}
 )

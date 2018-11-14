@@ -26,10 +26,10 @@ test('data', function (t) {
 
 test('tags', function (t) {
   t.deepEqual(openGraphTags(data), [
-    {property: 'og:title', content: 'The Title'},
-    {property: 'og:image:url', content: 'image.jpg'},
-    {property: 'og:image:width', content: 100},
-    {property: 'og:image:height', content: 200}
+    { property: 'og:title', content: 'The Title' },
+    { property: 'og:image:url', content: 'image.jpg' },
+    { property: 'og:image:width', content: '100' },
+    { property: 'og:image:height', content: '200' }
   ])
 
   t.end()
